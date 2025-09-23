@@ -1,2 +1,2 @@
 # Kofftea-Cliente
-Parte cliente de la web
+```nmp install```
