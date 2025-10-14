@@ -3,88 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
     <title>KoffTea</title>
-    
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="logo">
             <a href="index.html">
                 <img src="images/logo.png" alt="Logo de KoffTea">
             </a>
         </div>
-        <div class="searcher">
+        <div class="search-bar">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="search" placeholder="Buscar...">
-
+            <input type="text" placeholder="Buscar...">
         </div>
-        <nav class="main-nav">
+        <nav class="nav-icons">
             <ul>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-user"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-heart"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-
         </nav>
     </header>
+
     <main>
-
-        <section>
-            <h2>Lorem Ipsum</h2>
-            <article>
-                <p><em>"Suspendisse efficitur elit urna, in pellentesque tellus lobortis a. Nullam augue arcu, tincidunt vitae auctor ut, consequat et ligula. Morbi tristique sollicitudin nulla."</em></p>
-
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <p class="quote">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                </p>
                 <button>Descubrir</button>
-            </article>
-
-            <img src="images/logo.svg" alt="Imagen principal">
+            </div>
+            <div class="hero-img">
+                <img src="images/coffee.png" alt="Paquete de café">
+            </div>
         </section>
 
-        <h2>Curabitur a condimentum sapien</h2>
-
-        <section>
-            <article>
-                <h3>Donec blandit</h3>
-            </article>
-            <article>
+        <section class="features">
+            <h2>Curabitur a condimentum sapien</h2>
+            <div class="feature-items">
                 <article>
-                    <h3>Diam Ipsum</h3>
+                    <img src="images/coffee_beans.jpg" alt="Granos de café">
+                    <h3>Donec blandit</h3>
                 </article>
                 <article>
-                    <h3>Mauris Pretium</h3>
-                </article>
-            </article>
-
-            <article>
-                <h3>Donec blandit</h3>
-            </article>
-            <article>
-                <article>
-                    <h3>Diam Ipsum</h3>
+                    <img src="images/pepper.jpg" alt="Pimienta">
+                    <h3>Diam ipsum</h3>
                 </article>
                 <article>
-                    <h3>Mauris Pretium</h3>
+                    <img src="images/tea.jpg" alt="Té verde">
+                    <h3>Donec blandit</h3>
                 </article>
-            </article>
+                <article>
+                    <img src="images/spices.jpg" alt="Especias">
+                    <h3>Diam ipsum</h3>
+                </article>
+            </div>
         </section>
-
     </main>
-    <footer>
 
+    <footer>
+        <p>&copy; 2025 KoffTea. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
