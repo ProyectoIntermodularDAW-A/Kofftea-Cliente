@@ -38,7 +38,7 @@
                 <button>Descubrir</button>
             </div>
             <div class="hero-img">
-                <img src="images/coffee.png" alt="Paquete de café">
+                <img src="./images/products/arab_coffee.png" alt="Paquete de café">
             </div>
         </section>
 
@@ -46,19 +46,19 @@
             <h2>Curabitur a condimentum sapien</h2>
             <div class="feature-items">
                 <article>
-                    <img src="images/coffee_beans.jpg" alt="Granos de café">
+                    <img src="./images/category/arab-beans.png" alt="Granos de café árabe">
                     <h3>Donec blandit</h3>
                 </article>
                 <article>
-                    <img src="images/pepper.jpg" alt="Pimienta">
+                    <img src="./images/category/african-beans.jpg" alt="Granos de café africano">
                     <h3>Diam ipsum</h3>
                 </article>
                 <article>
-                    <img src="images/tea.jpg" alt="Té verde">
+                    <img src="./images/category/matcha.jpeg" alt="Té verde">
                     <h3>Donec blandit</h3>
                 </article>
                 <article>
-                    <img src="images/spices.jpg" alt="Especias">
+                    <img src="./images/category/chai-te.jpg" alt="Chai">
                     <h3>Diam ipsum</h3>
                 </article>
             </div>
