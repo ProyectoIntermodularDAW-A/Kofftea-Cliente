@@ -9,7 +9,7 @@
 <body class="form-page">
     <div class="container">
         
-        <form>
+        <form action="submit_contacto.php" method="POST" enctype="multipart/form-data">
             <h2>Formulario de Contacto Kofftea</h2>
             
             <label for="nombre">Nombre:</label><br>
